@@ -1,0 +1,92 @@
+
+
+.container {
+  
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #878a8a;
+  min-height:100vh;
+  
+}
+
+.child {
+  
+  background-color: #ffffff;
+  width: 30%;
+ height:80vh;
+  margin-top: 10vh;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 10vh;
+  border:  solid #1b1a1a;
+}
+.loginString{
+  display: block;
+  text-align: center;    
+  font-size: 5vh;
+
+}
+.childProducts{
+  background-color: #ffffff;
+  width: 60%;
+   margin-left: 20%;
+  margin-right: 20%;  
+ 
+}
+.parentProducts{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #878a8a;
+  min-height:90vh;
+}
+.DivLink{
+  
+  justify-content: center;
+  display: flex;
+  margin-top: 2vh;
+}
+.searchText{
+  background-color: #ffffff;
+  
+  
+   margin-left: 30%;
+  margin-right: 30%; 
+  border: solid; 
+  margin-top: 2vh;
+  border-radius: 1vh;
+}
+
+.oneProduct{
+    display: inline-block;
+    width:40%;
+    height: 45vh;
+    border: 1px solid ;
+    margin-top:8vh ;    
+    margin-left:8vh ;    
+    background-color:#D3D3D3;
+    overflow-y: auto;
+}
+.imagestyle{
+  width:60%;
+  height:30vh;
+  margin-left:auto;
+  margin-Right:auto;
+  padding-left:10%;
+
+}
+.titlestyle{
+  
+  width:95%;
+  margin-left:auto;
+  margin-Right:auto;
+  text-align: center;
+  
+}
+.pricestyle{
+  text-align:center;
+  
+  width:100%;
+  
+}
